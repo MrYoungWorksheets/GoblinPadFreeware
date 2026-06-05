@@ -22,7 +22,7 @@ GitHub Pages should publish from the `main` branch root.
 
 The website download button points to:
 
-https://github.com/MrYoungWorksheets/GoblinPadFreeware/releases/download/v1.0.0-beta.1/GoblinPad%20Setup%201.0.0-beta.1.exe
+https://github.com/MrYoungWorksheets/GoblinPadFreeware/releases/download/v1.0.0-beta.1/GoblinPad.Setup.1.0.0-beta.1.exe
 
 Release notes point to:
 
