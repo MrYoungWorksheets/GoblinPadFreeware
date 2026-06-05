@@ -36,28 +36,22 @@
             document.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#download">Download for Windows</a>
+            <a
+              class="button primary"
+              href="https://github.com/MrYoungWorksheets/GoblinPadFreeware/releases/latest/download/GoblinPad%20Setup%201.0.0-beta.1.exe"
+              rel="noopener noreferrer"
+            >
+              Download for Windows
+            </a>
             <a class="button secondary" href="#features">See features</a>
           </div>
         </div>
-        <div class="desk-panel" aria-label="GoblinPad writing desk preview">
-          <div class="desk-toolbar">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="desk-lines">
-            <span class="wide"></span>
-            <span></span>
-            <span class="short"></span>
-            <span class="wide"></span>
-            <span></span>
-          </div>
-          <div class="desk-footer">
-            <span>Chapter 018</span>
-            <span>2,143 words</span>
-          </div>
-        </div>
+        <figure class="hero-preview" aria-label="GoblinPad writing desk preview">
+          <img
+            src="assets/goblinpad-writing-desk.png"
+            alt="GoblinPad chapter writing desk with chapter list, word counters, editor, and tools menu."
+          >
+        </figure>
       </section>
 
       <section id="download" class="section download-section">
@@ -66,13 +60,22 @@
           <h2>Download GoblinPad for Windows</h2>
           <p>The installer is hosted through GitHub Releases.</p>
         </div>
-        <a
-          class="button primary download-button"
-          href="https://github.com/MrYoungWorksheets/GoblinPadFreeware/releases/latest"
-          rel="noopener noreferrer"
-        >
-          Download for Windows
-        </a>
+        <div class="download-actions">
+          <a
+            class="button primary download-button"
+            href="https://github.com/MrYoungWorksheets/GoblinPadFreeware/releases/latest/download/GoblinPad%20Setup%201.0.0-beta.1.exe"
+            rel="noopener noreferrer"
+          >
+            Download for Windows
+          </a>
+          <a
+            class="button secondary"
+            href="https://github.com/MrYoungWorksheets/GoblinPadFreeware/releases/latest"
+            rel="noopener noreferrer"
+          >
+            Release notes
+          </a>
+        </div>
       </section>
 
       <section class="section warning-section" aria-labelledby="unsigned-warning">
@@ -155,32 +158,32 @@
       <section class="section screenshots-section">
         <div class="section-heading">
           <p class="eyebrow">Screenshots</p>
-          <h2>Preview placeholders</h2>
+          <h2>Preview GoblinPad</h2>
         </div>
         <div class="screenshot-grid">
           <article class="screenshot-card">
-            <div class="screenshot-placeholder" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
+            <img
+              class="screenshot-image"
+              src="assets/goblinpad-writing-desk.png"
+              alt="GoblinPad chapter writing desk with chapter navigation, word counters, and editor."
+              loading="lazy"
+            >
+            <div class="screenshot-content">
+              <h3>Chapter Writing Desk</h3>
+              <p>Work inside one focused chapter view with navigation, word targets, and progress readouts nearby.</p>
             </div>
-            <h3>Main writing desk</h3>
           </article>
           <article class="screenshot-card">
-            <div class="screenshot-placeholder scanner" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
+            <img
+              class="screenshot-image"
+              src="assets/goblinpad-tts-scanner.png"
+              alt="GoblinPad TTS Hazard Scanner modal over the chapter writing desk."
+              loading="lazy"
+            >
+            <div class="screenshot-content">
+              <h3>TTS Hazard Scanner</h3>
+              <p>Scan active chapters or whole books for mechanical text-to-speech risks before audio review.</p>
             </div>
-            <h3>TTS Hazard Scanner</h3>
-          </article>
-          <article class="screenshot-card">
-            <div class="screenshot-placeholder chapters" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <h3>Chapter tools</h3>
           </article>
         </div>
       </section>
@@ -189,7 +192,7 @@
         <div class="section-copy">
           <p class="eyebrow">Support</p>
           <h2>Keep GoblinPad freeware</h2>
-          <p>GoblinPad is freeware. Donations help keep the goblins fed.</p>
+          <p>GoblinPad is freeware. Donations support maintenance and future writer-tool polish.</p>
         </div>
         <a class="button donate-button" href="https://paypal.me/GoblinPad" rel="noopener noreferrer">
           Donate
@@ -199,10 +202,9 @@
       <section id="feedback" class="section feedback-section">
         <div>
           <p class="eyebrow">Feedback</p>
-          <h2>Send bug reports and confusing lever notes</h2>
+          <h2>Send bug reports and confusing tool notes</h2>
           <p>
-            Found a bug or confusing goblin lever? Use Send Feedback inside the app, or email
-            directly.
+            Found a bug or confusing tool? Use Send Feedback inside the app, or email directly.
           </p>
         </div>
         <a class="email-link" href="mailto:gobblinwords@gmail.com">gobblinwords@gmail.com</a>
