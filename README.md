@@ -8,6 +8,11 @@ https://mryoungworksheets.github.io/GoblinPadFreeware/
 
 GoblinPad is freeware by Robert Young, writing as Samburjack. The public site explains what GoblinPad does and links users to the latest Windows installer release.
 
+Public-facing release naming note:
+
+- The website may refer to the latest release as `GoblinPad V3`.
+- The actual GitHub release tag and installer filename remain `v1.0.0-beta.3` / `GoblinPad.Setup.1.0.0-beta.3.exe` unless explicitly renamed later.
+
 ## Repository Scope
 
 This repo is public download and website only.
